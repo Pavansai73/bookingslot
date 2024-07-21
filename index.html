@@ -1,383 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>webpage-project</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="index1.css" />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">Ground Booking</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="home.html">contact us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="booking.html">book</a>
-            </li>
 
-            
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-primary" type="submit">
-              Search
-            </button>
-          </form>
-          <div class="mx-2">
-            <button class="btn btn-outline-success">login</button>
-            <button class="btn btn-outline-danger">signup</button>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="https://static.vecteezy.com/system/resources/thumbnails/032/976/325/small_2x/night-view-of-melbourne-cricket-ground-generative-ai-photo.jpg"
-            height="490"
-            width="300"
-            class="d-block w-100"
-            alt="Ground view"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h3>welcome</h3>
-            <p>
-              "When the going gets tough, the tough get going - on the cricket
-              field."
-            </p>
-            <button class="btn btn-danger" >cancel Booking <a href=""></a></button>
-            <button class="btn btn-primary">pre Booking <link rel="stylesheet" href="/booking.html"></a></button>
-            <button class="btn btn-success">on payment</button>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="/dimimg-1.jpeg"
-            height="490"
-            width="300"
-            class="d-block w-100"
-            alt="Dimensions img"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Dimensions</h3>
-            <p>
-              Standard cricket pitch is 22 yards long, boundary 65-90 meters,
-              outfield surrounds, infield where game action occurs, varying by
-              ground.
-            </p>
-            <button class="btn btn-danger">cancel Booking</button>
-            <button class="btn btn-primary">pre Booking <a href="booking.html"></a></button>
-            <button class="btn btn-success">on payment</button>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="/pitchimg-1.jpg"
-            height="490"
-            width="300"
-            class="d-block w-100"
-            alt="pitch img"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h3>pitch report</h3>
-            <p>Pitch favors batsmen with even bounce and minimal turn.</p>
-            <button class="btn btn-danger">cancel Booking</button>
-            <button class="btn btn-primary">pre Booking <a href="/booking.html"></a></button>
-            <button class="btn btn-success">on payment</button>
-          </div>
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>webpage-project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="index1.css" />
+</head>
 
-    <div class="container my-4">
-      <div class="row mb-2">
-        <div class="col-md-6">
-          <div
-            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
-          >
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-primary-emphasis"
-                >ground</strong
-              >
-              <h3 class="mb-0">Facilities</h3>
-              <div class="mb-1 text-body-secondary">Nov 12</div>
-              <p class="card-text mb-auto">
-                Describe the facilities available at the cricket ground such as
-                pitch quality, seating arrangements, pavilion, changing rooms,
-                floodlights, parking, etc.
-              </p>
-              <a
-                href="#"
-                class="icon-link gap-1 icon-link-hover stretched-link"
-              >
-                Continue reading
-              </a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <img
-                class="bd-placeholder-img"
-                width="200"
-                height="250"
-                src="/img1.webp"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div
-            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
-          >
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-success-emphasis"
-                >tournaments</strong
-              >
-              <h3 class="mb-0">Events</h3>
-              <div class="mb-1 text-body-secondary">Nov 11</div>
-              <p class="mb-auto">
-                Mention if the ground is available for hosting events,
-                tournaments, coaching sessions, etc.
-              </p>
-              <a
-                href="#"
-                class="icon-link gap-1 icon-link-hover stretched-link"
-              >
-                Continue reading
-                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-              </a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <img
-                class="bd-placeholder-img"
-                width="200"
-                height="250"
-                src="/img2.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container my-4">
-      <div class="row mb-2">
-        <div class="col-md-6">
-          <div
-            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
-          >
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-primary-emphasis"
-                >address</strong
-              >
-              <h3 class="mb-0">location</h3>
-              <div class="mb-1 text-body-secondary">Nov 12</div>
-              <p class="card-text mb-auto">
-                jangaon, weavers colony,beside hunuman temple
-              </p>
-              <a
-                href="#"
-                class="icon-link gap-1 icon-link-hover stretched-link"
-              >
-                Continue reading
-              </a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <img
-                class="bd-placeholder-img"
-                width="200"
-                height="250"
-                src="/img3.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div
-            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
-          >
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-success-emphasis"
-                >Size</strong
-              >
-              <h3 class="mb-0">Size</h3>
-              <div class="mb-1 text-body-secondary">Nov 11</div>
-              <p class="mb-auto">
-                Mention if the ground is available for hosting events,
-                tournaments, coaching sessions, etc.
-              </p>
-              <a
-                href="#"
-                class="icon-link gap-1 icon-link-hover stretched-link"
-              >
-                Continue reading
-                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-              </a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <img
-                class="bd-placeholder-img"
-                width="200"
-                height="250"
-                src="/img4.webp"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <h1 class="mt-5 mb-4">Ground Slot Booking</h1>
+      <a class="navbar-brand" href="#">Ground Booking</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="booking.html">book</a>
+          </li>
 
-      <form>
-        <div class="form-group">
-          <label for="name">Name:</label>
-          <input
-            type="text"
-            class="form-control"
-            id="name"
-            placeholder="Enter your name"
-          />
-        </div>
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input
-            type="email"
-            class="form-control"
-            id="email"
-            placeholder="Enter your email"
-          />
-        </div>
-        <div class="form-group">
-          <label for="date">Date:</label>
-          <input type="date" class="form-control" id="date" />
-        </div>
-        <div class="form-group">
-          <label for="time">Time Slot:</label>
-          <select class="form-control" id="time">
-            <option>Select a time slot</option>
-            <option>8:00 AM - 10:00 AM</option>
-            <option>10:00 AM - 12:00 PM</option>
-            <option>2:00 PM - 4:00 PM</option>
-          </select>
-        </div>
-        <button type="submit" class="btn btn-primary">Book Slot <a href="booking.html"></a></button>
-      </form>
-    </div>
 
-    <div class="row featurette d-flex justify-content-center align-items-center my-5 mx-5">
-      <div class="col-lg-4">
-    <img src="/timings.jpg" alt="" class="bd-placeholder-img rounded-circle" width="140" height="140">
-        <h2 class="fw-normal">timings</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-        <p><a class="btn btn-secondary"  href="timing.html">View details »</a></p>
-        <link rel="stylesheet" href="timing.html">
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <img src="/price-image.png" alt="" class="bd-placeholder-img rounded-circle" width="140" height="140">
-        <h2 class="fw-normal">price</h2>
-        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-        <p><a class="btn btn-secondary" href="#">View details »</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <img src="https://i.pinimg.com/736x/20/33/82/203382dd496fd81ece3ea88cbc9d9a8d.jpg" alt="" class="bd-placeholder-img rounded-circle" width="140" height="140">
-        <h2 class="fw-normal">discount</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
-        <p><a class="btn btn-secondary" href="#">View details »</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div>
-  
-    <div class="row featurette d-flex justify-content-center align-items-center mx-4">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1"><b>NOTE:</b> <span class="text-body-secondary">Field for cricket matches..</span></h2>
-   <p class="lead">Cricket grounds are the playing fields where the sport of cricket is played. They are typically large, grassy areas with a flat surface for the pitch in the center. Surrounding the pitch is the playing area where fielders position themselves to try and dismiss the batsmen. Cricket grounds can vary in size and shape, with some being circular while others are more oval-shaped. They often have seating areas for spectators to watch the game. Additionally, cricket grounds may have facilities such as pavilions, dressing rooms, and scoreboards to support the players and officials during matches.</p>
-      </div>
-      <div class="col-md-5">
-    <img src="/img5.png" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-primary" type="submit">
+            Search
+          </button>
+        </form>
+        <div class="mx-2">
+          <button class="btn btn-outline-success">login</button>
+          <button class="btn btn-outline-danger">signup</button>
+        </div>
       </div>
     </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://static.vecteezy.com/system/resources/thumbnails/032/976/325/small_2x/night-view-of-melbourne-cricket-ground-generative-ai-photo.jpg"
+          height="490" width="300" class="d-block w-100" alt="Ground view" />
+        <div class="carousel-caption d-none d-md-block">
+          <h3>welcome</h3>
+          <p>
+            "When the going gets tough, the tough get going - on the cricket
+            field."
+          </p>
+          <button class="btn btn-danger">cancel Booking <a href=""></a></button>
+          <button class="btn btn-primary">pre Booking
+            <link rel="stylesheet" href="/booking.html"></a>
+          </button>
+          <button class="btn btn-success">on payment</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://qph.cf2.quoracdn.net/main-qimg-2d39d18458364aa83c3b6e7866bc4d51-pjlq" height="490" width="300"
+          class="d-block w-100" alt="Dimensions img" />
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Dimensions</h3>
+          <p>
+            Standard cricket pitch is 22 yards long, boundary 65-90 meters,
+            outfield surrounds, infield where game action occurs, varying by
+            ground.
+          </p>
+          <button class="btn btn-danger">cancel Booking</button>
+          <button class="btn btn-primary">pre Booking <a href="booking.html"></a></button>
+          <button class="btn btn-success">on payment</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://t3.ftcdn.net/jpg/02/66/06/18/360_F_266061854_ELjfKSRqdoyhmc9D2WHMZfHCEVvBbMef.jpg"
+          height="490" width="300" class="d-block w-100" alt="pitch img" />
+        <div class="carousel-caption d-none d-md-block">
+          <h3>pitch report</h3>
+          <p>Pitch favors batsmen with even bounce and minimal turn.</p>
+          <button class="btn btn-danger">cancel Booking</button>
+          <button class="btn btn-primary">pre Booking <a href="/booking.html"></a></button>
+          <button class="btn btn-success">on payment</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container my-4">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary-emphasis">ground</strong>
+            <h3 class="mb-0">Facilities</h3>
+            <div class="mb-1 text-body-secondary">Nov 12</div>
+            <p class="card-text mb-auto">
+              Describe the facilities available at the cricket ground such as
+              pitch quality, seating arrangements, pavilion, changing rooms,
+              floodlights, parking, etc.
+            </p>
+            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+              Continue reading
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250"
+              src="https://cdn.britannica.com/47/148847-050-C4FB5341/Cricket-bat-ball.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success-emphasis">tournaments</strong>
+            <h3 class="mb-0">Events</h3>
+            <div class="mb-1 text-body-secondary">Nov 11</div>
+            <p class="mb-auto">
+              Mention if the ground is available for hosting events,
+              tournaments, coaching sessions, etc.
+            </p>
+            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+              Continue reading
+              <svg class="bi">
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250"
+              src="https://fairgaze.com/images/UploadedImages/thumbs/0073240_0073240_cricket.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-4">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary-emphasis">address</strong>
+            <h3 class="mb-0">location</h3>
+            <div class="mb-1 text-body-secondary">Nov 12</div>
+            <p class="card-text mb-auto">
+              jangaon, weavers colony,beside hunuman temple
+            </p>
+            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+              Continue reading
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250"
+              src="https://static.vecteezy.com/system/resources/previews/004/897/637/non_2x/location-red-icon-simple-design-free-vector.jpg"
+              alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success-emphasis">Size</strong>
+            <h3 class="mb-0">Size</h3>
+            <div class="mb-1 text-body-secondary">Nov 11</div>
+            <p class="mb-auto">
+              Mention if the ground is available for hosting events,
+              tournaments, coaching sessions, etc.
+            </p>
+            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+              Continue reading
+              <svg class="bi">
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250"
+              src="https://cutmac.wordpress.com/wp-content/uploads/2020/05/d1otqalwwaitd-v.jpg?w=1024" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1 class="mt-5 mb-4">Ground Slot Booking</h1>
+
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" />
+      </div>
+      <div class="form-group">
+        <label for="date">Date:</label>
+        <input type="date" class="form-control" id="date" />
+      </div>
+      <div class="form-group">
+        <label for="time">Time Slot:</label>
+        <select class="form-control" id="time">
+          <option>Select a time slot</option>
+          <option>8:00 AM - 10:00 AM</option>
+          <option>10:00 AM - 12:00 PM</option>
+          <option>2:00 PM - 4:00 PM</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Book Slot <a href="booking.html"></a></button>
+    </form>
+  </div>
+
+  <div class="row featurette d-flex justify-content-center align-items-center my-5 mx-5">
+    <div class="col-lg-4">
+      <img src="https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2019/04/No-change-in-Govt-office-timings.jpg"
+        alt="" class="bd-placeholder-img rounded-circle" width="140" height="140">
+      <h2 class="fw-normal">timings</h2>
+      <p>Some representative placeholder content for the three columns of text below the carousel. This is the first
+        column.</p>
+      <p><a class="btn btn-secondary" href="timing.html">View details »</a></p>
+      <link rel="stylesheet" href="timing.html">
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img src="https://www.price2spy.com/blog/wp-content/uploads/2021/03/price-image.png" alt=""
+        class="bd-placeholder-img rounded-circle" width="140" height="140">
+      <h2 class="fw-normal">price</h2>
+      <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+      <p><a class="btn btn-secondary" href="#">View details »</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img src="https://i.pinimg.com/736x/20/33/82/203382dd496fd81ece3ea88cbc9d9a8d.jpg" alt=""
+        class="bd-placeholder-img rounded-circle" width="140" height="140">
+      <h2 class="fw-normal">discount</h2>
+      <p>And lastly this, the third column of representative placeholder content.</p>
+      <p><a class="btn btn-secondary" href="#">View details »</a></p>
+    </div><!-- /.col-lg-4 -->
+  </div>
+
+  <div class="row featurette d-flex justify-content-center align-items-center mx-4">
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1"><b>NOTE:</b> <span class="text-body-secondary">Field for cricket
+          matches..</span></h2>
+      <p class="lead">Cricket grounds are the playing fields where the sport of cricket is played. They are typically
+        large, grassy areas with a flat surface for the pitch in the center. Surrounding the pitch is the playing area
+        where fielders position themselves to try and dismiss the batsmen. Cricket grounds can vary in size and shape,
+        with some being circular while others are more oval-shaped. They often have seating areas for spectators to
+        watch the game. Additionally, cricket grounds may have facilities such as pavilions, dressing rooms, and
+        scoreboards to support the players and officials during matches.</p>
+    </div>
+    <div class="col-md-5">
+      <img src="https://5.imimg.com/data5/SELLER/Default/2021/10/CW/HW/LM/34202267/cricket-ground-construction.png"
+        alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+        height="500">
+    </div>
+  </div>
 
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
